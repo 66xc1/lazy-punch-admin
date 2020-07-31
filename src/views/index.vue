@@ -54,7 +54,7 @@
                         <el-form-item label="设备ID">
                             <el-input v-model="item.deviceId" clearable size="medium"></el-input>
                         </el-form-item>
-                        <el-form-item label="登录UUID" v-show="item.clientType==='3'">
+                        <el-form-item label="登录UUID" v-show="item.clientType===3">
                             <el-input v-model="item.loginUUID" clearable size="medium"></el-input>
                         </el-form-item>
                     </el-col>
